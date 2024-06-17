@@ -1,5 +1,17 @@
 package tests;
 
-public class Test2 {
 
-}
+	import org.testng.Reporter;
+	import org.testng.annotations.Test;
+
+	public class Test2 {
+		
+			
+			@Test
+			public void sampleTest() {
+				Reporter.log("Test2- sampleTest", true);
+			}
+		}
+			
+
+
